@@ -12,6 +12,8 @@ namespace vizkit3d
      */
 
     class ASNViz : public vizkit3d::VizkitPluginFactory {
+        Q_OBJECT
+        Q_PLUGIN_METADATA(IID "rock.vizkit3d.VizkitPluginFactory")
         public:
         
         enum ASNPlugins {RigidBodyState, Motion2D, Pointcloud, LaserScan, DepthMap, Vector3d, Map};

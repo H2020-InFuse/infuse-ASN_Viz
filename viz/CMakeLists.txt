@@ -12,5 +12,5 @@ rock_vizkit_plugin(ASN_Viz-viz
         MapViz.hpp
     SOURCES MapViz.cpp
     DEPS ASN_Viz
-    DEPS_PKGCONFIG base-types base_support sensor_samples_support base-viz asn1
+    DEPS_PKGCONFIG base-types base_support sensor_samples_support base-viz-qt5 asn1
     HEADERS ASNViz.hpp)

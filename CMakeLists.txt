@@ -8,4 +8,5 @@ include($ENV{ESROCOS_CMAKE})
 
 esrocos_init()
 
+rock_find_qt5()
 rock_standard_layout()

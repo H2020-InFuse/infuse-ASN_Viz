@@ -74,4 +74,3 @@ QObject* ASNViz::createPlugin(QString const& pluginName){
     };
 }
 
-Q_EXPORT_PLUGIN2(ASNViz, ASNViz)
