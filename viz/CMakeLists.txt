@@ -1,10 +1,10 @@
 
 
 
-rock_vizkit_plugin(ASN_Viz-viz
+rock_vizkit_plugin_qt5(ASN_Viz-viz-qt5
     ASNViz.cpp
     MOC ASNViz.hpp
-        LaserScanViz.hpp 
+        LaserScanViz.hpp
         RigidBodyStateViz.hpp
         PointcloudViz.hpp
         DepthMapViz.hpp
